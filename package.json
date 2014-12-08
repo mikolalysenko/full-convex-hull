@@ -1,0 +1,38 @@
+{
+  "name": "full-convex-hull",
+  "version": "1.0.0",
+  "description": "Computes the convex hull of a set allowing for possible lower dimensional degeneracies",
+  "main": "fullhull.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "affine-hull": "^1.0.0",
+    "convex-hull": "^1.0.3",
+    "simplicial-complex": "^1.0.0",
+    "affine-complement": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/full-convex-hull.git"
+  },
+  "keywords": [
+    "convex",
+    "hull",
+    "any",
+    "dimension",
+    "degeneracy"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/full-convex-hull/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/full-convex-hull"
+}
